@@ -1,0 +1,302 @@
+body{
+    padding: 0; 
+    margin: 0 auto; 
+    font-family: helvetica, arial, sans-serif;
+}
+
+/* separateur */
+.fa-circle{
+    color: rgba(52,158,194,1.00);
+    position: relative; 
+    z-index: 1
+}
+
+
+/*********** space ***********/
+.space{
+    height: 110px;
+}
+/*header*/
+.logo{
+    padding-left: 240px; 
+}
+.main{
+    display: flex;
+    width: 100%;
+    padding-left: 90px;
+    position: fixed; 
+    z-index: 4; 
+    background-color: white;
+}
+.menu{
+    margin-left: 150px;
+    padding-top: 20px; 
+}
+.menu li{
+    display: inline-block; 
+    padding-right: 15px; 
+}
+.menu a{
+    text-decoration: none; 
+    color: dimgrey;
+    font-size: 16px;
+    display: block; 
+}
+.menu a:active{
+    color: dimgrey; 
+}
+.menu a:hover{
+    color: black;
+    border-top: 2px solid rgba(52,158,194,1.00);
+}
+
+/*Slider*/
+.w3-display-left{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.w3-display-right{
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px;
+}
+.w3-button{
+    padding-left: 4px !important; 
+}
+w3-display-container{
+    width: 100%;
+}
+
+.webagency{
+    color: rgba(52,158,194,1.00);
+}
+.custom{
+    color: white;
+}
+.h-size{
+    font-size: 24px;
+}
+.custom-size{
+    font-size: 12px;
+}
+
+.unstyled{
+    text-decoration: none; 
+    color: white;
+}
+.btn{
+     background-color: rgba(52,158,194,1.00);
+     color: white;
+}
+.w3-display-middle{
+    top: 47% !important; 
+    left: 38% !important;
+}
+/*content */
+.content{
+    width: 100%;
+}
+/**Titre**/
+.text-center{
+    text-align: center;
+}
+
+/**services**/
+.feature,.competences{
+    display: flex;
+    padding: 5px; 
+   margin-left: 300px;
+     
+}
+.lescompentences{
+    flex-direction: column;
+    padding-right: 35px;
+    margin-left: 5px; 
+    padding-top: 90px;
+}
+.competences{
+    margin: 0; 
+}
+.competences h3{
+    font-size: 20px;
+}
+.competences p{
+    text-align: justify;
+}
+.ico-style{
+    color: rgba(52,158,194,1.00); 
+    align-self: center;
+    font-size: 20px;
+}
+.cadre{
+    border-radius: 50px;
+    border: 1px solid rgb(217,217,217);
+    display: flex; 
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    margin: 15px; 
+}
+.blue-point{
+    height: 10px; 
+    width: 10px; 
+    border-radius: 10px;
+    background-color: rgb(92,173,211);
+    position: relative; 
+    left: 37px; 
+    top: 20px; 
+}
+
+/*Nos projets */
+
+/* Halo blanc */
+.halo-blanc{
+background-color: #5CADD3;
+border-radius: 60px;
+border: 3.5px solid white;
+font-size: 25px;
+}
+.nos-projets{
+    background-color: #f5f5f5;
+}
+.cont-nav{
+    background-color: silver;
+    width: 360px;
+    margin: 0 auto; 
+     padding: 2px 0 2px 0;
+    border-radius: 5px; 
+}
+nav ul{
+    padding: 0;
+}
+.main-port li {
+    list-style: none;
+}
+.main-port a{
+    text-decoration: none;
+    padding: 0px 10px 0px 12px;
+}
+.main-port a:hover{
+    background-color: rgba(52,158,194,1.00);
+    color: white;
+    padding-top: 22px; 
+    padding-bottom: 22px;
+}
+
+.main-pro{
+    display: flex;
+    padding: 5px 0 5px 0;
+    background-color: silver;
+}
+
+.block{
+    display: flex;
+}
+.block img{
+    width: 100%
+}
+figure{
+    position: relative;
+    z-index: 1; 
+}
+/*description des images */
+figcaption{
+    position: absolute;
+    bottom: 0px; 
+    height: 50%;
+    display: block;
+    -webkit-transition: bottom 1.2s; 
+    transition: bottom 1.8s;
+    background-color: grey;
+    opacity: 0.8; 
+    color: #fff;
+    padding-left: 10px;
+    overflow: hidden;
+    visibility: hidden;
+    display: none; 
+    width: 100%;
+}
+
+figure:hover figcaption{
+    visibility: visible; 
+    overflow: hidden;
+    
+}
+
+.fleche{
+    position: absolute;
+    color: rgba(52,158,194,1.00); 
+    font-size: 30px; 
+    visibility: hidden; 
+    overflow: hidden; 
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.cont-nav li:hover .fleche{
+    display: block;
+    visibility: visible;
+    overflow: hidden;
+}
+/*custom sur l'oeil */
+.eye-cust{
+    border: 3.5px solid #fff; 
+    border-radius: 50px;
+    width: 50px; 
+    height: 50px;
+    background-color: rgb(92,173,211);
+    position: absolute; 
+    bottom: 45%;/*160px*/
+    left: 85%;/*500px*/
+    z-index: 1;
+    visibility: hidden;
+   padding: 10px 10px;
+}
+figure:hover .eye-cust{
+    visibility: visible;
+}
+.fa-eye{
+    color: #fff; 
+    font-size: 22px;
+    border-radius: 25px; 
+}
+/*Formulaire */
+.formulaire {
+    width: 413px;  
+    position: relative;
+    background-color: #e9f3fc;
+    padding: 20px;
+    overflow: hidden;
+    float: right; 
+    margin: 15px; 
+    z-index: 2;
+    
+}
+.formulaire input{
+    width: 100%;
+    padding: 5px 0 5px 0;
+    margin: 10px 0 10px 0;
+}
+
+.text{
+    width: 100%;
+}
+/*footer*/
+/*map + form*/
+.map-form{
+    height: 640px; 
+}
+/* carte */
+#map{
+    height: 690px; 
+    width: 100%; 
+    overflow: hidden;
+    position: absolute;
+}
+
+.filtre{
+    width: 100%; 
+    background-color: #9ac8ee; 
+    height: 690px; 
+    opacity: 0.6; 
+    position: absolute;
+    z-index: 1; 
+}

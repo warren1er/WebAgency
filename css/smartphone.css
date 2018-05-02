@@ -1,0 +1,76 @@
+/** Menu et Logo **/
+.logo{
+    width: 100%;
+}
+.main{
+    flex-direction: column; 
+    height: 150px;
+    position: relative
+}
+.menu{
+    padding: 0; 
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.space{
+    display: none;
+}
+/****** Slider ******/
+.header{
+    width: 100%;
+}
+.w3-container{
+    display: none;
+}
+.w3-button{
+    display: none;
+}
+.custom{
+    font-size:  0.7em;
+}
+/********** Nos services ***************/
+
+.feature img{
+   display: none;
+}
+.competences p{
+    text-align: center;
+    font-size: 1.2em;
+}
+.fas{
+    display: none;
+}
+
+/************* Nos projets ***************/
+.cadre{
+    display: none;
+}
+.block figcaption{
+    display: none;
+}
+
+.text h3{
+    font-style: bold; 
+    font-size: 26px;
+    color: rgb(92,173,211);
+}
+
+.cont-nav{
+    width: 100%;
+    margin: 0;
+}
+
+.eye-cust{
+    display: none; 
+}
+
+.block{
+    flex-direction: column; 
+}
+/****************** footer *********************/
+.formulaire{
+    padding: 0; 
+    margin: 0;
+    width: 100%; 
+}

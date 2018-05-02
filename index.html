@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-with, initial-scale=1">
+        <title>WEBAGENCY</title>
+        <meta name="description" content="Une agence web qui réalise des sites web pour différents entreprises." >
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        
+        <!-- fichier responsive par taille -->
+    
+        <!-- css pour les tablettes -->
+        <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/tablette.css" />
+        
+        <!-- css pour les smartphones -->
+        
+        <!--   iphone 6 plus -->
+        <link rel="stylesheet" media="screen and (max-width:414px)" href="css/smartphone.css" />
+        
+        <!-- mode paysage -->
+        <link rel="stylesheet" media="screen and (max-width:736px)" href="css/smartphone-paysage.css" />
+        
+        <!-- les icones -->
+        <link rel="icon" type="image/png" href="images/ico/apple-touch-icon-114-precomposed.png"/>
+        <link rel="icon" type="image/png" href="images/ico/apple-touch-icon-144-precomposed.png" />
+        <link rel="icon" type="image/png" href="images/ico/apple-touch-icon-57-precomposed.png" />
+        <link rel="icon" type="image/png" href="images/ico/apple-touch-icon-72-precomposed.png" />
+        <link rel="icon" type="image/png" href="images/ico/favicon.ico" />
+         <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="images/ico/favicon.ico" /><![endif]-->
+    </head>
+    <body>
+    <div id="wrapper">
+        <nav class="main">
+        <!-- logo et lien vers le haut de la page -->
+            <a href="#">
+            <figure>
+                <img src="images/logo.png" alt="Logo de Webagency" class="logo"/>
+            </figure>
+            </a>
+            <ul class="menu">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#nos-services">Services</a></li>
+                <li><a href="#nos-projets">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="space"></div>
+        <div class="header">
+        <!-- slider -->
+            <section class="w3-content w3-display-container slider">
+                <img class="mySlides" src="images/slider/bg1.jpg" style="width: 100%" alt="image d'une fille">
+                  <div class="w3-display-middle  w3-container">
+                      <h1 class="custom h-size"> <span class="webagency">WEBAGENCY</span>: L'AGENCE DE TOUS VOS PROJETS !</h1>
+                      <p class="custom custom-size">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+                      <button class="btn">Plus d'infos</button>
+                    </div>  
+                <img class="mySlides" src="images/slider/bg2.jpg" style="width: 100%" alt="image d'un garçon"> 
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </section>
+        </div>
+     <!-- fin du slider -->   
+        <div class="content">
+        <section class="services">
+            <h1 class="text-center" id="nos-services">NOS SERVICES</h1>
+                <div class="text-center">
+                <i class="fa fa-circle halo-blanc" aria-hidden="true"></i>
+                </div>
+            <p class="text-center">Nos différents services feront de votre site, celui qu'il faut absolument visiter</p>
+                <div class="service-content">
+                    <div class="feature">
+                        <figure>
+                            <img src="images/main-feature.png" alt="Presentation des services" />
+                        </figure>
+                        <div class="lescompentences">
+                       
+                            <div class="competences">
+                            
+                                <div class="cadre">
+                                    <div class="blue-point"></div>
+                                    <p class="fa-deco">
+                                        <i class="fas fa-chart-line ico-style"></i></p>
+                                    
+                                </div> 
+                                <section class="text">
+                            
+                                    <h3>UX Design</h3>
+                            
+                                    <p>Un site lisse et confortable pour une expérience pour l'utilisateur inoubliable.</p>
+                                </section> 
+                          </div>
+                        <div class="competences">
+                            <div class="cadre">
+                                <div class="blue-point"></div>
+                                <p class="fa-deco">
+                                    <i class="fas fa-cubes ico-style"></i>
+                                </p>
+                                
+                            </div>
+                            
+                            <section class="text">
+                            <h3> UI design</h3>
+                            <p>Une conception centrée sur l'utilisateur pour qu'il puisse mettre votre directement en favori.</p>
+                            </section>
+                        </div>
+                            
+                            
+                        <div class="competences">
+                        <div class="cadre">
+                            <div class="blue-point"></div>
+                            <p class="fa-deco">
+                                <i class="fas fa-chart-pie ico-style"></i>
+                            </p>
+                            
+                            </div>
+                            <section class="text">
+                            <h3> SEO</h3>
+                            <p>Une optimisation des plus parfaites pour toujours être en tête sur les moteurs de recherche.</p>
+                            </section>
+                        </div><!-- fin de competences -->
+                    </div><!-- toutes les competences -->
+                </div><!-- fin de feature -->
+            </div> <!-- fin de service content --> 
+        </section><!-- fin de service -->
+            <section class="nos-projets">
+                <h1 class="text-center" id="nos-projets">NOS PROJETS</h1>
+                <div class="text-center"> 
+            <i class="fa fa-circle halo-blanc" aria-hidden="true"></i>
+                </div>
+            <p class="text-center">Voici un aperçu de nos compétences ainsi que de nos projets et les plus appreciés </p>
+                
+                <!-- menu de choix des portfolio -->
+                <div class="cont-nav">
+                <nav class="text-center main-port">
+                    <ul class="main-pro">
+                        <li><a href="#">All Works</a>
+                            <div class="fleche">
+                        <i class="fas fa-caret-down"></i>
+                            </div>
+                        </li>
+                        
+                        <li><a href="#">Creative</a>
+                            <div class="fleche">
+                            <i class="fas fa-caret-down"></i>
+                            </div>
+                        </li>
+                        
+                        <li><a href="#">Corporate</a>
+                            <div class="fleche">
+                            <i class="fas fa-caret-down"></i>
+                            </div>
+                        </li>
+                        
+                        <li><a href="#">Portfolio</a>
+                            <div class="fleche">
+                            <i class="fas fa-caret-down"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </nav><!-- fin du menu selectif des crea -->
+                </div><!-- fin du cont-nav -->
+                <!-- block contenant les realisations -->
+                <section class="block"><!-- un block contenant a chaque fois 3 img -->
+                    <figure>
+                        <img src="images/portfolio/01.jpg" alt="image 1" />
+                   
+                        <figcaption>
+                            <h3>Une nouvelle vue</h3>
+                            <p>Le site de KRYS</p>
+                        </figcaption>
+                        <div class="eye-cust">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/02.jpg" alt="lapin rose" />    
+                        <figcaption>
+                            <h3>Pâques</h3>
+                            <p>Le site de Lindt</p>
+                        </figcaption>
+                        <div class="eye-cust">
+                            <i class="fas fa-eye "></i>
+                        </div>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/03.jpg" alt="logo pompadour" />
+                        <figcaption>
+                            <h3>Brand new</h3>
+                            <p>Pas si new que sa :)</p> 
+                        </figcaption>
+                        <div class="eye-cust">
+                            <i class="fas fa-eye "></i>
+                        </div>
+                    </figure>
+                </section>
+                
+                <section class="block">
+                    <figure>
+                        <img src="images/portfolio/04.jpg" alt="livre "/>
+                        <figcaption>
+                            <h3>Livre</h3>
+                            <p>Gilbert jeune pour des livres pas si jeunes</p>
+                        </figcaption>
+                        <div class="eye-cust">
+                            <i class="fas fa-eye "></i>
+                        </div>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/05.jpg" alt="des sacs" />
+                        <figcaption>
+                            <h3>Zalando</h3>
+                            <p>Pour des sacs à perte de vue </p>
+                        </figcaption>
+                        <div class="eye-cust">
+                            <i class="fas fa-eye "></i>
+                        </div>
+                    </figure>
+                    <figure>
+                        <img src="images/portfolio/06.jpg" alt="peinture" />
+                        
+                        <figcaption>
+                            <h3>Louvres</h3>
+                            <p>Le plus beau musée au monde</p>
+                        </figcaption>
+                        <div class="eye-cust">
+                            <i class="fas fa-eye "></i>
+                        </div>
+                    </figure>
+                </section>
+            <section class="block">
+                <figure>
+                    <img src="images/portfolio/07.jpg" alt="depart missile" />
+                    
+                    <figcaption>
+                        <h3>CNES</h3>
+                        <p>Preparation au prochain voyage dans l'espace</p> 
+                    </figcaption>
+                    <div class="eye-cust">
+                            <i class="fas fa-eye "></i>
+                        </div>
+                </figure>
+                <figure>
+                    <img src="images/portfolio/08.jpg" alt="bureau" />
+                    
+                    <figcaption>
+                        <h3>Office depot</h3>
+                        <p>Pour des fournitures de bureau de qualité</p>
+                    </figcaption>
+                    <div class="eye-cust">
+                            <i class="fas fa-eye "></i>
+                        </div>
+                </figure>
+                <figure>
+                    <img src="images/portfolio/full.jpg"
+                         alt="Hamburger" />
+                    <figcaption>
+                        <h3>Burger King</h3>
+                        <p>Les meilleures burgers sont chez nous !</p>  
+                    </figcaption>
+                    <div class="eye-cust">
+                            <i class="fas fa-eye "></i>
+                        </div>
+                </figure>
+                </section>
+            </section><!-- fin de nos projets -->
+        
+        <footer>
+           
+            <div class="map-form"><!-- div contenant la map et le form -->
+                  <div class="filtre"> </div>
+                <div id="map">  </div>
+                
+            <div class="formulaire " id="contact">
+                <form method="post" action="index.php">
+                <h2>Contact info</h2>
+                    <p><strong>WebAgency SAS</strong> <br />
+                    25 Rue d'Hauteville 75010 Paris <br />
+                    Tel: 01 02 03 04 05</p>
+                <input type="text" name="text" placeholder="Name" autofocus /> <br />
+                <input type="email" name="email" placeholder="Email"  /> <br />
+                <input type="text" name="subject" placeholder="Subject" /> <br />
+                    <textarea name="message" rows="10" cols="46"  class="text"> </textarea><br />
+                    <input type="submit" name="Send"  />
+                </form>
+            </div>
+            </div><!-- fin de la div contenant la map et le formulaire -->
+        </footer>
+        </div> <!-- fin du content -->
+    </div><!-- fin du wrapper -->
+    
+    <!-- js du slider -->
+        <script src="js/slider.js"> </script>
+<!-- js de la carte -->
+      <script src="js/map.js"> </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8TcigqPC2LVL79hGVe8svquvnU6Nt1mU&callback=initMap"> </script>
+<!-- icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    </body>
+</html>
